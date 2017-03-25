@@ -1,0 +1,92 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Git cheat sheet</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    </head>
+<body>
+<h1 class="wrapper">GIT cheat sheet</h1>
+
+<div class="grid">
+  <section>
+    <h2>Create</h2>
+
+    <dl>
+      <dt>Clone an existing repository</dt>
+      <dd><kbd>$ git clone ssh://userygdomain.com/repo.git</kbd></dd>
+
+      <dt>Create a new local repository</dt>
+      <dd><kbd>$ git init</kbd></dd>
+    </dl>
+
+  </section>
+
+  <section>
+    <h2>Local changes</h2>
+
+    <dl>
+      <dt>Changed files in your working directory</dt>
+      <dd><kbd>$ git status</kbd></dd>
+
+      <dt>Changes to tracked files</dt>
+      <dd><kbd>$ git diff</kbd></dd>
+
+      <dt>Add all current changes to the next commit</dt>
+      <dd><kbd>$ git add .</kbd></dd>
+    </dl>
+
+  </section>
+
+  <section>
+    <h2>Branches & tags</h2>
+
+    <dl>
+      <dt>List all existing branches</dt>
+      <dd><kbd>$ git branch -av</kbd></dd>
+
+      <dt>Switch HEAD branch</dt>
+      <dd><kbd>$ git checkout &lt;branch&gt;</kbd></dd>
+
+      <dt>Create new branch based on your current HEAD</dt>
+      <dd><kbd>$ git branch &lt;new-branch&gt;</kbd></dd>
+      
+      <dt>Create new tracking brach based on a remote branch</dt>
+      <dd><kbd>$ git checkout --track &lt;remote/branch&gt;</kbd></dd>
+      
+      <dt>Delete a local branch</dt>
+      <dd><kbd>$ git branch -d &lt;branch&gt;</kbd></dd>
+    </dl>
+
+  </section>
+
+  <section>
+    <h2>Merge & rebase</h2>
+    
+    <dl>
+      <dt>Merge &lt;branch&gt; into your current HEAD</dt>
+      <dd><kbd>$ git merge &lt;branch&gt;</kbd></dd>
+      
+      <dt>Rebase your current HEAD onto &lt;branch&gt; (don't rebase published commits!)</dt>
+      <dd><kbd>$ git rebase &lt;branch&gt;</kbd></dd>
+      
+      <dt>Abort a rebase</dt>
+      <dd><kbd>$ git rebase --abort</kbd></dd>
+      
+      <dt>Continue a rebase after resolving conflicts</dt>
+      <dd><kbd>$ git rebase --continue</kbd></dd>
+      
+      <dt>Use your configured merge tool to solve conflicts</dt>
+      <dd><kbd>$ git mergetool</kbd></dd>
+    </dl>
+    
+  </section>
+</div>
+  </body>
+</html>
+
