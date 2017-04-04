@@ -25,5 +25,4 @@ Well ,I dont think that this chrome extension contains all the git commands requ
 Happy contributing !!!
 
 # Screenshots
-
-[pic1](https://github.com/aswanthkoleri/Git-Cheat-Sheet-Chrome-Extension/blob/master/Screenshot%20from%202017-04-04%2014-38-36.png?raw=true)
+(pic1)[https://github.com/aswanthkoleri/Git-Cheat-Sheet-Chrome-Extension/blob/master/Screenshot%20from%202017-04-04%2014-38-36.png?raw=true]
