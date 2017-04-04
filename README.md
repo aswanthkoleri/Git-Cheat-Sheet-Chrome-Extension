@@ -23,3 +23,7 @@ Hoping this Extension may do good to you guys !! Adios ..!!
 Well ,I dont think that this chrome extension contains all the git commands required.If you have any git commands to suggest kindly send pull request .If your PR is contains any extra git Commands I'll be merging it happily.Also development in the styling of the extension iws also accepted.
 
 Happy contributing !!!
+
+# Screenshots
+
+[pic1](https://github.com/aswanthkoleri/Git-Cheat-Sheet-Chrome-Extension/blob/master/Screenshot%20from%202017-04-04%2014-38-36.png?raw=true)
